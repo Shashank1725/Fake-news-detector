@@ -1,7 +1,15 @@
+
+
+echo "# Python
 __pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+*.keras
 *.pkl
+
+*.png
+*.html
 *.csv
-*.mat
-*.tsv
-*.txt
-.ipynb_checkpoints/
+" > .gitignore
